@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <span id="hours"><b>00</b></span>
+            <span >:</span>
+            <span id="minute"><b>00</b></span>
+            <span>:</span>
+            <span id="sec"><b>00</b></span>
+        </div>
+    </div>
+</body>
+<script>
+    let hours=document.getElementById("hours");
+    let minute=document.getElementById("minute");
+    let sec=document.getElementById("sec");
+   
+    setInterval(()=>{
+        let current =new Date();
+
+        hours.innerHTML= current.getHours();
+    minute.innerHTML=current.getMinutes();
+    sec.innerHTML=current.getSeconds();},1000)
+   
+</script>
+</html>

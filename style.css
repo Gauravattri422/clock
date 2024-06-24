@@ -1,0 +1,24 @@
+*{
+   
+}
+
+.clock{
+    width:70%;
+    height:px;
+    background: linear-gradient(135deg,blue,purple);
+    
+    font-size: 70px;
+    padding: 100px;
+    margin-left: 30px;
+    margin-top: 70px;
+    border-radius: 18px;
+    display: inline-block;
+    text-align: center;
+}
+span{
+    color:white; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+
+border: none;
+}
